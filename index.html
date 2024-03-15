@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Ouvidoria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="pngwing.com.png" class="logo">
+        <h1>OuvidoCria - Contacts</h1>
+    </header>
+    <main>
+        <p> <strong> The CriaOuvido Ombudsman's Office is a communication channel of a mediating and democratic nature, which
+        welcomes manifestations from students, teachers, staff and the community in general.
+            If you have any complaints, suggestions, requests or
+            compliments, please contact us via email: Ouvidocria@Criaouvido.edu.br or, if you prefer, fill out our form by
+            clicking on the link below.</strong></p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="occupation">Occupation:</label>
+                <input type="occupation" id="occupation" name="occupation" required>
+            </div>
+            <div class="form-group">
+                <label for="phone-Number">Phone Number:</label>
+                <input type="phone-Number" id="phone-Number" name="phone-Number" required>
+            </div>
+            <div class="form-group">
+                <label for="tipo">Type of request:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="elogio">Compliment</option>
+                    <option value="sugestao">Suggestion</option>
+                    <option value="reclamacao">Complaint</option>
+                    <option value="outro">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Message:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 UNIFACISA - All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

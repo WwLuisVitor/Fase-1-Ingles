@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e61919;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display:flexbox; /* Utiliza flexbox para alinhamento */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100px; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Adiciona um pequeno espaçamento à direita da imagem */
+}
+
+
