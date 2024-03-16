@@ -5,12 +5,12 @@ body {
 }
 
 header {
-    background-color: #e61919;
+    background-color: #376FC1;
     color: white;
     text-align: center;
     padding: 20px 0;
-    display:flexbox; /* Utiliza flexbox para alinhamento */
-    align-items: center; /* Alinha os itens verticalmente */
+    display:flexbox; 
+    align-items: center; 
 }
 
 main {
@@ -53,9 +53,9 @@ footer {
 }
 
 .logo {
-    max-width: 100px; /* Define a largura máxima da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-right: 10px; /* Adiciona um pequeno espaçamento à direita da imagem */
+    max-width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
 }
 
 
