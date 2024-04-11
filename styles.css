@@ -21,6 +21,7 @@ main {
 
 .form-group {
     margin-bottom: 20px;
+    
 }
 
 label {
@@ -30,13 +31,13 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="password"], /* Adicionado tipo de input password */
 textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 button {
     background-color: #0073e6;
     color: white;
@@ -57,5 +58,32 @@ footer {
     height: auto; 
     margin-right: 10px; 
 }
+.card {
+    background-color: #fff; /* Fundo branco */
+    border: 2px solid #376FC1; /* Contorno em azul igual ao cabeçalho */
+    border-radius: 10px; /* Cantos arredondados */
+    margin-bottom: 20px;
+    overflow: hidden; /* Para conter elementos filhos que tenham posicionamento absoluto */
+}
+
+.card-header {
+    background-color: #376FC1; /* Cor de fundo do título */
+    padding: 10px;
+}
+
+.card-header h3 {
+    color: rgb(255, 255, 255); /* Texto branco */
+    margin-top: 0; /* Remover margem padrão do título */
+    margin-bottom: 0; /* Remover margem padrão do título */
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card p {
+    color: #333; /* Texto preto */
+}
+
 
 

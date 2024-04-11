@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Ouvidoria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Daco_343907.png" class="logo">
+        <h1>OuvidoCria - Menu</h1>
+    </header>
+    <main>
+        <h2>Welcome to Criaouvido!</h2>
+        <div class="intro">
+            <p> The CriaOuvido Ombudsman's Office is a communication channel of a mediating and democratic nature, which
+                welcomes manifestations from students, teachers, staff and the community in general.
+                If you have any complaints, suggestions, requests or
+                compliments, please contact us via email: Ouvidocria@Criaouvido.edu.br or, if you prefer, fill out a new form by
+                clicking on the button below.</p>
+            </div>
+            <p><strong>Choose an option below:</strong></p>
+        <div class="buttons">
+            <button onclick="redirectToFormPage()">Open a new ticket</button>
+            <button onclick="redirectToSolicitacoesPage()">Ticket History</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 UNIFACISA - All rights reserved.</p>
+    </footer>
+
+    <script>
+        function redirectToFormPage() {
+            window.location.href = "index.html";
+        }
+
+        function redirectToSolicitacoesPage() {
+            // Substitua "solicitacoes.html" pelo nome do arquivo onde estão as solicitações criadas
+            window.location.href = "history.html";
+        }
+    </script>
+</body>
+</html>

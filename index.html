@@ -14,11 +14,7 @@
         <h1>OuvidoCria - Contacts</h1>
     </header>
     <main>
-        <p> <strong> The CriaOuvido Ombudsman's Office is a communication channel of a mediating and democratic nature, which
-        welcomes manifestations from students, teachers, staff and the community in general.
-            If you have any complaints, suggestions, requests or
-            compliments, please contact us via email: Ouvidocria@Criaouvido.edu.br or, if you prefer, fill out our form by
-            clicking on the link below.</strong></p>
+     
         <form>
             <div class="form-group">
                 <label for="name">Name:</label>
@@ -26,11 +22,11 @@
             </div>
             <div class="form-group">
                 <label for="occupation">Occupation:</label>
-                <input type="occupation" id="occupation" name="occupation" required>
+                <input type="text" id="occupation" name="occupation" required>
             </div>
             <div class="form-group">
                 <label for="phone-Number">Phone Number:</label>
-                <input type="phone-Number" id="phone-Number" name="phone-Number" required>
+                <input type="text" id="phone-Number" name="phone-Number" required>
             </div>
             <div class="form-group">
                 <label for="tipo">Type of request:</label>
@@ -50,12 +46,17 @@
                 <label for="mensagem">Message:</label>
                 <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
             </div>
-            <button type="submit">Send</button>
+            <button onclick="redirectToIntermediatePage()" type="submit">Send</button>
         </form>
     </main>
     <footer>
         <p>&copy; 2024 UNIFACISA - All rights reserved.</p>
     </footer>
+    <script>
+        function redirectToIntermediatePage() {
+            window.location.href = "intermediate.html";
+        }
+    </script>
 </body>
 
 </html>
